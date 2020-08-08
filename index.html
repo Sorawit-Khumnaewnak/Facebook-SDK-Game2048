@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>FACEBOOK SDK: GAME2048</title>
+		<link rel="icon" type="image/png" href="icon/icon.ico" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet" />
+		<script
+			src="https://code.jquery.com/jquery-2.2.4.js"
+			integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/check_login.js"></script>
+	</head>
+	<body >
+		<script></script>
+		<main class="login">
+			<div align="center">
+				<h1>LOGIN</h1>
+				<div
+					class="fb-login-button"
+					data-size="large"
+					data-button-type="login_with"
+					data-layout="rounded"
+					data-auto-logout-link="true"
+					data-use-continue-as="true"
+					data-width=""
+					scope="public_profile,email"
+					onlogin="checkLoginState();"
+					auto-logout-link="true"
+					data-use-continue-as="true"
+				></div>
+			</div>
+		</main>
+	</body>
+</html>
